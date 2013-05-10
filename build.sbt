@@ -15,6 +15,7 @@ libraryDependencies ++= Seq(
     ExclusionRule(organization = "javax.jms")
   ),
   "com.twitter" %% "finagle-http" % "6.3.0" cross CrossVersion.binary,
-  "org.scalatest" %% "scalatest" % "1.9.1" % "test" cross CrossVersion.binary
+  "org.scalatest" %% "scalatest" % "1.9.1" % "test" cross CrossVersion.binary,
+  "org.mockito" % "mockito-all" % "1.9.5" % "test"
 )
 

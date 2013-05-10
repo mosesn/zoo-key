@@ -17,4 +17,8 @@ class Console(client: ZkClient) {
   def pwd(path: String): Future[String] = ???
 
   def cat(path: String): Future[ChannelBuffer] = ???
+
+  def touch(path: String): Future[Unit] = ???
+
+  def echo(string: String): Future[String] = Future.value(string)
 }
