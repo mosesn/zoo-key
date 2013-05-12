@@ -16,6 +16,7 @@ libraryDependencies ++= Seq(
   ),
   "com.twitter" %% "finagle-http" % "6.3.0" cross CrossVersion.binary,
   "org.scalatest" %% "scalatest" % "1.9.1" % "test" cross CrossVersion.binary,
-  "org.mockito" % "mockito-all" % "1.9.5" % "test"
+  "org.mockito" % "mockito-all" % "1.9.5" % "test",
+  "org.apache.curator" % "curator-test" % "2.0.0-incubating" % "test"
 )
 
